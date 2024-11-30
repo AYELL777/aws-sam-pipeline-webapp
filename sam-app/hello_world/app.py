@@ -26,7 +26,7 @@ def lambda_handler(event, context):
     """
 
     # try:
-    #     ip = requests.get("http://checkip.amazonaws.com/")
+    #     ip = requests.get("24.60.94.82")
     # except requests.RequestException as e:
     #     # Send some context about this error to Lambda Logs
     #     print(e)
@@ -36,7 +36,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "hello world",
+            "message": "I am glad to have complete this tutorial",
             # "location": ip.text.replace("\n", "")
         }),
     }
